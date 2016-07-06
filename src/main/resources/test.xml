@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<test>
+
+    <case name="滑动测试">
+        <step name="swipeDown">
+            <argument name="UporDown">down</argument>
+            <argument name="during">10000</argument>
+        </step>
+        <step name="swipeUp">
+            <argument name="UporDown">up</argument>
+            <argument name="during">10000</argument>
+        </step>
+    </case>
+
+    <case name="登录测试">
+        <step name="click1">
+            <argument name="WebElement">我的</argument>
+        </step>
+        <step name="click2">
+            <argument name="WebElement">立即登录</argument>
+        </step>
+        <step name="click3">
+            <argument name="WebElement">密码登录</argument>
+        </step>
+        <step name="input1">
+            <argument name="WebElement">手机</argument>
+            <argument name="inputValue">15996239267</argument>
+        </step>
+        <step name="input2">
+            <argument name="WebElement">密码</argument>
+            <argument name="inputValue">whx0506,.</argument>
+        </step>
+        <step name="click4">
+            <argument name="WebElement">登录</argument>
+        </step>
+    </case>
+    <case name="用户信息">
+        <step name="click1">
+            <argument name="WebElement">立即登录</argument>
+        </step>
+        <step name="getdata1">
+        <argument name="WebElement">  </argument>
+        </step>
+
+        <step name="click1_1">
+            <argument name="WebElement">手机绑定</argument>
+        </step>
+        <step name="click1_2">
+            <argument name="WebElement">返回</argument>
+        </step>
+
+        <step name="click1_3">
+            <argument name="WebElement">邮箱绑定</argument>
+        </step>
+        <!--<step name="click1_4">-->
+            <!--<argument name="WebElement">返回</argument>-->
+        <!--</step>-->
+
+        <step name="click1_5">
+            <argument name="WebElement">微信绑定</argument>
+        </step>
+        <step name="click1_6">
+            <argument name="WebElement">微信登录</argument>
+        </step>
+
+        <step name="click1_7">
+            <argument name="WebElement">QQ绑定</argument>
+        </step>
+        <step name="click1_8">
+            <argument name="WebElement">QQ登录</argument>
+        </step>
+        <step name="click1_9">
+            <argument name="WebElement">微博绑定</argument>
+        </step>
+        <!--<step name="click1_10">-->
+            <!--<argument name="WebElement">微博登录</argument>-->
+        <!--</step>-->
+
+        <step name="click1_11">
+            <argument name="WebElement">淘宝绑定</argument>
+        </step>
+        <step name="click1_12">
+            <argument name="WebElement">淘宝登录</argument>
+        </step>
+
+        <step name="click2">
+            <argument name="WebElement">返回</argument>
+        </step>
+        <step name="click3">
+            <argument name="WebElement">收货地址</argument>
+        </step>
+        <step name="getdata2">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click4">
+            <argument name="WebElement">返回</argument>
+        </step>
+
+        <step name="click5">
+            <argument name="WebElement">我的收藏</argument>
+        </step>
+        <step name="getdata3">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click6">
+            <argument name="WebElement">返回</argument>
+        </step>
+
+        <step name="click7">
+            <argument name="WebElement">美食相册</argument>
+        </step>
+        <step name="getdata4">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click8">
+            <argument name="WebElement">返回</argument>
+        </step>
+
+        <step name="click9">
+            <argument name="WebElement">积分商城</argument>
+        </step>
+        <step name="getdata5">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click10">
+            <argument name="WebElement">返回</argument>
+        </step>
+
+
+        <step name="click11">
+            <argument name="WebElement">饿了么会员卡</argument>
+        </step>
+        <step name="getdata6">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click12">
+            <argument name="WebElement">返回</argument>
+        </step>
+
+        <step name="click13">
+            <argument name="WebElement">我的红包</argument>
+        </step>
+        <step name="getdata7">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click14">
+            <argument name="WebElement">返回</argument>
+        </step>
+
+        <step name="click15">
+            <argument name="WebElement">我的余额</argument>
+        </step>
+        <step name="getdata8">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click16">
+            <argument name="WebElement">返回</argument>
+        </step>
+        <step name="click17">
+            <argument name="WebElement">我的积分</argument>
+        </step>
+        <step name="getdata9">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click18">
+            <argument name="WebElement">返回</argument>
+        </step>
+
+
+        <step name="click19">
+            <argument name="WebElement">设置</argument>
+        </step>
+        <step name="click20">
+            <argument name="WebElement">退出登录</argument>
+        </step>
+    </case>
+
+    <case name="第三方登录">
+        <!--微信登录-->
+        <step name="click1">
+            <argument name="WebElement">立即登录</argument>
+        </step>
+        <step name="click2">
+            <argument name="WebElement">微信</argument>
+        </step>
+        <step name="click3">
+            <argument name="WebElement">微信登录</argument>
+        </step>
+        <step name="click7">
+            <argument name="WebElement">立即登录</argument>
+        </step>
+        <step name="getdata">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click8">
+            <argument name="WebElement">返回</argument>
+        </step>
+        <step name="click4">
+            <argument name="WebElement">设置</argument>
+        </step>
+        <step name="click5">
+            <argument name="WebElement">退出登录</argument>
+        </step>
+        <step name="click6">
+            <argument name="WebElement">跳过</argument>
+        </step>
+
+        <!--QQ登录-->
+        <step name="click1_1">
+            <argument name="WebElement">立即登录</argument>
+        </step>
+        <step name="click2_1">
+            <argument name="WebElement">QQ</argument>
+        </step>
+        <step name="click3_1">
+            <argument name="WebElement">QQ登录</argument>
+        </step>
+        <step name="click7_1">
+            <argument name="WebElement">立即登录</argument>
+        </step>
+        <step name="getdata_1">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click8_1">
+            <argument name="WebElement">返回</argument>
+        </step>
+        <step name="click4_1">
+            <argument name="WebElement">设置</argument>
+        </step>
+        <step name="click5_1">
+            <argument name="WebElement">退出登录</argument>
+        </step>
+        <step name="click6_1">
+            <argument name="WebElement">跳过</argument>
+        </step>
+
+        <!--微博登录-->
+        <step name="click1_2">
+            <argument name="WebElement">立即登录</argument>
+        </step>
+        <step name="click2_2">
+            <argument name="WebElement">微博</argument>
+        </step>
+        <!--<step name="click3_1">-->
+            <!--<argument name="WebElement">微博登录</argument>-->
+        <!--</step>-->
+        <step name="click7_2">
+            <argument name="WebElement">立即登录</argument>
+        </step>
+        <step name="getdata_2">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click8_2">
+            <argument name="WebElement">返回</argument>
+        </step>
+        <step name="click4_2">
+            <argument name="WebElement">设置</argument>
+        </step>
+        <step name="click5_2">
+            <argument name="WebElement">退出登录</argument>
+        </step>
+        <step name="click6_2">
+        <argument name="WebElement">跳过</argument>
+        </step>
+
+        <!--淘宝登录-->
+        <step name="click1_3">
+            <argument name="WebElement">立即登录</argument>
+        </step>
+        <step name="click2_3">
+            <argument name="WebElement">淘宝</argument>
+        </step>
+        <step name="click3_3">
+        <argument name="WebElement">淘宝登录</argument>
+        </step>
+        <step name="click7_3">
+            <argument name="WebElement">立即登录</argument>
+        </step>
+        <step name="getdata_3">
+            <argument name="WebElement">  </argument>
+        </step>
+        <step name="click8_3">
+            <argument name="WebElement">返回</argument>
+        </step>
+        <step name="click4_3">
+            <argument name="WebElement">设置</argument>
+        </step>
+        <step name="click5_3">
+            <argument name="WebElement">退出登录</argument>
+        </step>
+        <step name="click6_3">
+        <argument name="WebElement">跳过</argument>
+        </step>
+
+    </case>
+</test>
